@@ -12,14 +12,20 @@ nav{
   background-color: #18191b;
 
 }
-
+nav .dark{
+  background-color: #18191b;
+}
+nav .light{
+  background-color: aquamarine;
+}
 nav > h3,nav>h4{
     font-size: 23px;
-    color: #DEEBF8;
+    color: #2767a6;
 }
 
 nav>h4{
     margin-right: 10px;
+    color: #61DAFB;
 }
 
 nav>h3{
@@ -32,6 +38,16 @@ nav>h3{
   font-size: calc(10px + 2vmin);
   color: white;
   height: 90vh;
+} 
+.App-header .light{
+  background-color: rgb(80, 223, 92);
+}
+.light{
+  background-color: whitesmoke;
+  color: #18191b;
+}
+.App-header .dark{
+  background-color: #282c34;
 }
 
 .App-header ul{

@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function Main() {
+export default function Main(props) {
+  const classes = `App-header ${props.mode?"dark":"light"}`;
   return (
-    <div className="App-header">
+    <div className={classes} >
         <h1>Fun Facts about React</h1>
         <ul>
           <li>Was released in 2013</li>
